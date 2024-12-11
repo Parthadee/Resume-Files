@@ -3,7 +3,8 @@
 
 - **Education**: 1. Master Degree in Computer Application  2. Bachelor of Technology in Civil Engineering
 - **Objective**: Designed and developed interactive dashboards to present actionable insights using Power BI.
--**Internship**:
+
+**Internship**:
 - **1:** AWS Intern,WebGuru Infosystems: Developed and implemented cloud-based software solutions using AWS services, showcasing skills in
  software engineering and scalability. 
 - **2:** Training and Development Center, Jspider: Built and enhanced full-stack development skills using Java, HTML/CSS, SQL, and OOP concepts.
@@ -14,7 +15,7 @@
 
 - **Education**: 1. Master Degree in Computer Application  2. Bachelor of Technology in Civil Engineering
 - **Objective**: Aspiring Data Engineer skilled in Python, SQL, Spark, and AWS, eager to build scalable pipelines and optimize ETL processes.
-  -**Internship**:
+**Internship**:
 - **1:** AWS Intern,WebGuru Infosystems: Developed and implemented cloud-based software solutions using AWS services, showcasing skills in
  software engineering and scalability. 
 - **2:** Training and Development Center, Jspider: Built and enhanced full-stack development skills using Java, HTML/CSS, SQL, and OOP concepts.
@@ -25,7 +26,7 @@
 
 - **Education**: 1. Master Degree in Computer Application 2. Bachelor of Technology in Civil Engineering 3. Diploma in Civil Engineering 4. Xth 
 - **Objective**: Aspiring Data Engineer skilled in Python, SQL, Spark, and AWS, eager to build scalable pipelines and optimize ETL processes.
--**Internship**:
+**Internship**:
 - **1:** AWS Intern,WebGuru Infosystems: Developed and implemented cloud-based software solutions using AWS services, showcasing skills in
  software engineering and scalability. 
 - **2:** Training and Development Center, Jspider: Built and enhanced full-stack development skills using Java, HTML/CSS, SQL, and OOP concepts.
