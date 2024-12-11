@@ -1,0 +1,274 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{1.4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Partha Dey} \\ \vspace{1pt}
+    Master of Computer Applications, 2025 $|$ Kolkata,West Bengal,India \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91- 9062681888} ~} \href{parthakrde@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{parthakrde@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/parthakrdey/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{parthakrdey}}  ~
+    \href{https://github.com/Parthadee}{\raisebox{-0.2\height}\faGithub\ \underline{Parthadee}} ~
+    \href{https://www.hackerrank.com/profile/parthokrdey}{\raisebox{-0.2\height}\faHackerrank\ \underline{parthokrdey}} ~
+    \href{https://x.com/de_parthaa}{\raisebox{-0.2\height}\faTwitter\ \underline{departhaa}}
+    \vspace{-1pt}
+\end{center}
+
+
+%-----------INVOLVEMENT---------------
+\section{OBJECTIVE}
+    \resumeSubHeadingListStart
+     {An enthusiastic and technology-driven Master's in Computer Applications,very passionate about software engineering and full-stack development and data pipeline solutions. Skilled in Python and SQL, have experience in visualization tools such as Power BI and Tableau, and a strong foundation in problem solving using OOP concepts and teamwork. Ambitious to apply technical skills and interest in technology through a dynamic internship with a leading travel and technology company.}
+    \resumeSubHeadingListEnd
+ \vspace{-13pt}
+
+%-----------EXPERIENCE-----------
+\section{INTERNSHIP}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {WebGuru Infosystems {\raisebox{-0.2\height}\faExtern}}{Nov. 2024 - Present} 
+      {\underline{AWS Intern}}{Kolkata, WB, India}\\\
+      \resumeItemListStart
+        \resumeItem{\normalsize{Developed and implemented cloud-based software solutions using AWS services, showcasing skills in software engineering and scalability.}
+        }
+        \resumeItem{\normalsize{Deployed, optimized, and maintained scalable applications on AWS, improving system reliability and reducing errors by 30\%, while enhancing performance by 25\%.}}
+        }
+           \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+   \resumeSubheading
+      {Jspider {\raisebox{-0.2\height}\faExtern}}{Feb. 2022 - Apr. 2023} 
+      {\underline{Training and Development Center}}{Kolkata, WB, India} \\\
+      \resumeItemListStart
+        \resumeItem{\normalsize{Built and enhanced full-stack development skills using Java, HTML/CSS, SQL, and OOP concepts.}}
+        \resumeItem{\normalsize{Developed and executed full-stack development projects, reinforcing best practices in web development and application design.}}
+           \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+ \vspace{-4pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, Java}} \\
+     \textbf{\normalsize{Core Skills}}{ \normalsize{Data Analysis and Modeling, Advance Excel, Customer Acquisition}}\\
+     \textbf{\normalsize{Data Tools: }}{ \normalsize{SQL/MySQL, Power BI, Tableau, RDBMS}} \\
+     \textbf{\normalsize{Cloud Technologies: }}{ \normalsize{AWS}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux/Windows, GitHub/Git, HTML, CSS, JavaScript, PHP, Wordpress}} \\
+        \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+ 
+%------RELEVANT COURSEWORK-------
+\section{Soft Skills}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Problem-solving
+                    \item Critical thinking
+                \item Team collaboration
+                \item Communication skills
+                \item Adaptability
+                \item Organizational skills
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+ \vspace{-1pt}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Brainware University}{Aug. 2023 - Presen}
+      {Master of Computer Application - \textbf{Percentage:} - \textbf{ 81.26\%(8.13/10.0)}}{Kolkata, West Bengal}
+  \resumeSubHeadingListEnd
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Narula Institute of Technology} {August 2018 - July 2021}{
+Bachelor of Technology in Civil  - \textbf{Percentage} - \textbf{67.1\%(7.46/10.0). }}{Kolkata, West Bengal}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Data Analytics Solutions for PwC }}} \href{https://parthadee.github.io/Data-Analytics-PwC-/}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Power BI and Excel}}}{Dec. 2024} \\
+          \resumeItemListStart
+            \resumeItem{\normalsize{Developed interactive Power BI dashboards with \textbf{SQL and Excel, featuring dynamic visualizations, advanced data modeling, and insights-driven analytics}.}}}}
+          \resumeItemListEnd
+          \vspace{-10pt}
+          
+       \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{E-commerce (Zudio)}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{PHP, MySql and WorPress}}}{Sep. 2023} \\
+          \resumeItemListStart
+            \resumeItem{\normalsize{Created a stylish Zudio e-commerce site using \textbf{WordPress with responsive themes and plugins}.}}}}
+          \resumeItemListEnd 
+          \vspace{-8pt}
+            
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+ \vspace{-3pt}
+
+%
+
+ %-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+
+$\sbullet[.75] \hspace{.1cm}$ {\href{https://www.theforage.com/simulations/quantium/data-analytics-rqkb}{Data Analytics for Beginners - Quantium}} \hspace{-.10cm}
+$\sbullet[.75] \hspace{.1cm}$ {\href{https://www.theforage.com/simulations/pwc-ch/power-bi-cqxg}{Power BI- PwC Switzerland }} \hspace{-.10cm}
+$\sbullet[.75] \hspace{0.1cm}${\href{https://www.credly.com/badges/00dadbbc-7367-4687-aa72-7a4ebe03d905/linked_in?t=snzahv}{Python Essentials 1 \& 2 - CISCO}} \hspace{.1cm}
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{SQL}} \hspace{.1cm}
+$\sbullet[.75] \hspace{0.1cm}${\href{certificateLink.com}{Amazon EC2 - simplilearn}} \hspace{0.1cm}\\
+
+
+\end{document}
