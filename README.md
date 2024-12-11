@@ -1,48 +1,43 @@
 
 ## Data Analyst Resume Details
 
-- **Project Title**: Data Analytics for Business Insights.
+- **Education**: 1. Master Degree in Computer Application  2. Bachelor of Technology in Civil Engineering
 - **Objective**: Designed and developed interactive dashboards to present actionable insights using Power BI.
 
- ## Key Responsibilities
-- **1:** Built comprehensive dashboards utilizing advanced Power BI features like dynamic slicers, filters, and calculated measures.
-- **2:** Conducted data modeling to establish robust relationships and ensure data accuracy.
-- **Task-3:** Utilized visualization techniques to interpret and present key metrics and trends effectively.
+ ## Internship
+- **1:** AWS Intern,WebGuru Infosystems: Developed and implemented cloud-based software solutions using AWS services, showcasing skills in
+ software engineering and scalability. 
+- **2:** Training and Development Center, Jspider: Built and enhanced full-stack development skills using Java, HTML/CSS, SQL, and OOP concepts.
 
-## Tools Used
-- Power BI, Excel, SQL, Python.
+- **Skills**: Power BI, Excel, SQL/MySQL, Python, AWS, Linux/Windows, GitHub/Git, HTML/CSS and JavaScript, PHP
 
-## Outcome
-  Delivered advanced visualizations that enhanced decision-making processes.
-
-- **task 1.xlsx**  
-  Excel file serving as the source data for Task 1. Includes raw data for data modeling and transformation in Power BI.
-
-- **[Task 2 - Complete Dashboard](https://github.com/Parthadee/Data-Analytics-PwC-/blob/9ba0b553329849fbd337a73c2528d5a62e270afc/PowerBi/task%202.pbix)**  
-  Power BI file for Task 2, showcasing advanced analytics and customized visualizations to derive actionable insights.
-
-- **task 2.xlsx**  
-  Excel file serving as the source data for Task 2, enabling data preparation and integration with Power BI.
+- **Personal PROJECTS**: 1. Data Analytics Solutions for PwC  2.  E-commerce (Zudio)
   
-- **[Task 3 - Advanced Dashboard](https://github.com/Parthadee/Data-Analytics-PwC-/blob/9ba0b553329849fbd337a73c2528d5a62e270afc/PowerBi/Task%203.pbix)**  
-  Power BI file for Task 3, featuring advanced analytics and interactive visualizations to uncover actionable insights.
+## Data Engineer Resume Details
 
-- **task 3.xlsx**  
-  Excel file serving as the source data for Task 3, supporting data preparation and seamless integration with Power BI.
+- **Education**: 1. Master Degree in Computer Application  2. Bachelor of Technology in Civil Engineering
+- **Objective**: Aspiring Data Engineer skilled in Python, SQL, Spark, and AWS, eager to build scalable pipelines and optimize ETL processes.
 
-  ## Screenshots
-   [Add relevant screenshots of your Power BI dashboards here to highlight your work.](https://github.com/Parthadee/Data-Analytics-PwC-/tree/cceb83e5302c20f194e2978a41a9513a4213e7d1/task%20image).
+ ## Internship
+- **1:** AWS Intern,WebGuru Infosystems: Developed and implemented cloud-based software solutions using AWS services, showcasing skills in
+ software engineering and scalability. 
+- **2:** Training and Development Center, Jspider: Built and enhanced full-stack development skills using Java, HTML/CSS, SQL, and OOP concepts.
 
-## License  
-  Repository licensing details.
+- **Skills**:  Data Pipelines, PySpark, Apache Hadoop, SQL/MySQL, Python, AWS, Linux/Windows, GitHub/Git, HTML/CSS and JavaScript, PHP
 
-## Acknowledgments
+- **Personal PROJECTS**: 1. Confirm-Booking  2. E-commerce (Zudio)
 
-1. Thanks to PwC for the dataset and opportunity to create these data solutions.
-## How to Use
- 1. Clone this repository to your local machine:
-    ```git
-        git clone https://github.com/Parthadee/Data-Analytics-PwC-.git
-     ```
-2. Open the .pbix files using Power BI Desktop.
-3. Connect the .pbix files to the corresponding .xlsx data sources as needed.
+  ## College Resume Details
+
+- **Education**: 1. Master Degree in Computer Application 2. Bachelor of Technology in Civil Engineering 3. Diploma in Civil Engineering 4. Xth 
+- **Objective**: Aspiring Data Engineer skilled in Python, SQL, Spark, and AWS, eager to build scalable pipelines and optimize ETL processes.
+
+ ## Internship
+- **1:** AWS Intern,WebGuru Infosystems: Developed and implemented cloud-based software solutions using AWS services, showcasing skills in
+ software engineering and scalability. 
+- **2:** Training and Development Center, Jspider: Built and enhanced full-stack development skills using Java, HTML/CSS, SQL, and OOP concepts.
+
+- **Skills**:  OOPs, Data Structure & Algorithm, Java, SQL/MySQL, Python, Laravel, Linux, WordPress, HTML/CSS and JavaScript, PHP
+
+- **Personal PROJECTS**: 1. Confirm-Booking  2. E-commerce (Zudio)
+  
